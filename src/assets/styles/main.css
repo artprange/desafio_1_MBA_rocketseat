@@ -1,10 +1,10 @@
 #main {
     display: grid;
-    height: 30rem; /* Example height for demonstration */
-    width: 60rem; /* Example width for demonstration */
-    grid-template-columns: 1fr 2fr; /* 1fr for left-side, 2fr for right-side */
-    grid-template-rows: auto; /* Let rows adjust to content */
-    gap: 10px; /* Adjust gap between grid items as needed */
+    height: 30rem; 
+    width: 60rem; 
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: auto; 
+    gap: 1rem 1.5rem; 
 
     div{
         border-radius: 20px;
@@ -13,32 +13,51 @@
 
 .left-side {
     display: grid;
-    grid-template-rows: 1fr 4fr; /* 1/5 and 4/5 height */
-    gap: 10px; /* Adjust gap between grid items as needed */
+    grid-template-rows: 1fr 4fr; 
+    gap: 10px; 
 }
 
 .profile {
-    background-color: lightblue; /* Example background color */
-    grid-row: 1 / 2; /* Span from row 1 to 2 */
+   
+    grid-row: 1 / 2; 
+    border: 1px solid var(--gray-400);
+}
+
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.profile-wrapper h1{
+    margin-bottom: .25rem;
+}
+
+.profile-img img {
+    border:solid 1.5px var(--pink);  
+    border-radius: 10px;
+    max-width: 100%;    
 }
 
 .history {
-    background-color: lightgreen; /* Example background color */
-    grid-row: 2 / 3; /* Span from row 2 to 3 */
+    background-color: lightgreen; 
+    grid-row: 2 / 3; 
 }
 
 .right-side {
     display: grid;
-    grid-template-rows: 3fr 1fr; /* 3/4 and 1/4 height */
-    gap: 10px; /* Adjust gap between grid items as needed */
+    grid-template-rows: 3fr 1fr; 
+    gap: 10px; 
 }
 
 .card {
-    background-color: lightcoral; /* Example background color */
-    grid-row: 1 / 2; /* Span from row 1 to 2 */
+    background-color: lightcoral; 
+    grid-row: 1 / 2; 
 }
 
 .progress {
-    background-color: lightgoldenrodyellow; /* Example background color */
-    grid-row: 2 / 3; /* Span from row 2 to 3 */
+    background-color: lightgoldenrodyellow; 
+    grid-row: 2 / 3; 
 }

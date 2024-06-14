@@ -25,16 +25,17 @@
     color: var(--gray-500);
     font-size: var(--text-md);
     background: url(/src/assets/icons/submit-disabled.svg) no-repeat calc(100% - .5rem);
+    &:focus,
+    &:active {
+        outline: none;
+        border-width: 1.5px;
+        border-color: var(--pink);
+    }
+  }
 
-}
 
-.nav .container .id-input:hover{
-    background: url(/src/assets/icons/submit-hover.svg) no-repeat calc(100% - .5rem);
-}
 
-.nav .container .id-input:active
- {
-    border: 1px solid var(--pink);
-}
-                    
+
+
+               
 
