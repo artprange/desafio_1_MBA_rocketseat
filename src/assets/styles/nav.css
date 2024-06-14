@@ -1,0 +1,34 @@
+.nav{
+    width:90rem;
+    margin-top: 4rem;
+}
+
+
+ .nav .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav .container img{
+    margin-bottom: 2rem;
+}
+
+.nav .container .id-input{
+    width: 25rem;
+    border-radius: 12px;
+    background-color: var(--gray-300);
+    height: 3.5rem;
+    border: 1px solid var(--gray-400);
+    padding: 1rem;
+    color: var(--gray-500);
+    font-size: var(--text-md);
+    background: url(/src/assets/icons/submit-disabled.svg) no-repeat calc(100% - .5rem);
+}
+
+.nav .container .id-input:hover{
+    background: url(/src/assets/icons/submit-hover.svg) no-repeat calc(100% - .5rem);
+
+}
+
+
