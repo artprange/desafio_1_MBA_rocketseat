@@ -13,7 +13,8 @@
 
 :root{
     --pink: #D658B3;
-    --green: #45B442
+    --green: #45B442;
+    --green-faded: #45B4421F;
 
     --gray-700: #332B31;
     --gray-600: #4A4448;
@@ -52,12 +53,8 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column
-
+    flex-direction: column;
 }
-
-
-
 
 .title-md{
     font-size: 1.5rem;
