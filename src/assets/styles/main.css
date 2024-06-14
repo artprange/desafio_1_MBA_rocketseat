@@ -1,14 +1,16 @@
 #main {
     display: grid;
-    height: 30rem; 
+
     width: 60rem; 
     grid-template-columns: 1fr 2fr; 
     grid-template-rows: auto; 
     gap: 1rem 1.5rem; 
+    margin-bottom: 5rem;
 
-    div{
-        border-radius: 20px;
-    }
+   
 }
 
 
+.profile, .history, .card, .progress{
+    border-radius: 20px;
+}

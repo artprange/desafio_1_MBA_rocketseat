@@ -15,6 +15,13 @@ hr{
     margin-bottom: .75rem;
 }
 
+.date-time{
+    >p{
+        color: var(--gray-700);
+    }
+    
+}
+
 .history-entries{
     display: flex;
     justify-content: space-between;

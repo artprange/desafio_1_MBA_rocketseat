@@ -1,9 +1,15 @@
+.card{  
+    height:20.8125rem;
+}
+
 .header-wrapper {
    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding:2rem;    
+    padding: 0 2rem 0 2rem;  
+    margin-bottom: 2rem;
+  
 }
 
 span{
@@ -14,12 +20,11 @@ span{
 
 .stamps-wrapper{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-     flex-wrap: wrap;
+    align-items: center;
      gap: 1rem;
-     padding: 2rem;
-   
-
+     padding: 0 2rem 0 2rem;  
     
 }
 
