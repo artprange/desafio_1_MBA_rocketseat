@@ -1,0 +1,44 @@
+#main {
+    display: grid;
+    height: 30rem; /* Example height for demonstration */
+    width: 60rem; /* Example width for demonstration */
+    grid-template-columns: 1fr 2fr; /* 1fr for left-side, 2fr for right-side */
+    grid-template-rows: auto; /* Let rows adjust to content */
+    gap: 10px; /* Adjust gap between grid items as needed */
+
+    div{
+        border-radius: 20px;
+    }
+}
+
+.left-side {
+    display: grid;
+    grid-template-rows: 1fr 4fr; /* 1/5 and 4/5 height */
+    gap: 10px; /* Adjust gap between grid items as needed */
+}
+
+.profile {
+    background-color: lightblue; /* Example background color */
+    grid-row: 1 / 2; /* Span from row 1 to 2 */
+}
+
+.history {
+    background-color: lightgreen; /* Example background color */
+    grid-row: 2 / 3; /* Span from row 2 to 3 */
+}
+
+.right-side {
+    display: grid;
+    grid-template-rows: 3fr 1fr; /* 3/4 and 1/4 height */
+    gap: 10px; /* Adjust gap between grid items as needed */
+}
+
+.card {
+    background-color: lightcoral; /* Example background color */
+    grid-row: 1 / 2; /* Span from row 1 to 2 */
+}
+
+.progress {
+    background-color: lightgoldenrodyellow; /* Example background color */
+    grid-row: 2 / 3; /* Span from row 2 to 3 */
+}

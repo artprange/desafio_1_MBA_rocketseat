@@ -1,6 +1,7 @@
 .nav{
     width:90rem;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -24,11 +25,16 @@
     color: var(--gray-500);
     font-size: var(--text-md);
     background: url(/src/assets/icons/submit-disabled.svg) no-repeat calc(100% - .5rem);
+
 }
 
 .nav .container .id-input:hover{
     background: url(/src/assets/icons/submit-hover.svg) no-repeat calc(100% - .5rem);
-
 }
 
+.nav .container .id-input:active
+ {
+    border: 1px solid var(--pink);
+}
+                    
 
