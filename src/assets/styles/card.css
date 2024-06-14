@@ -1,0 +1,14 @@
+.header-wrapper {
+   margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding:2rem;    
+}
+
+span{
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    padding: 0.75rem;
+}
+

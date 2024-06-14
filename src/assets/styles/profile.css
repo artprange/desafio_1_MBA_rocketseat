@@ -1,0 +1,24 @@
+.profile {
+   
+    grid-row: 1 / 2; 
+    border: 1px solid var(--gray-400);
+}
+
+.profile-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.profile-wrapper h1{
+    margin-bottom: .25rem;
+}
+
+.profile-img img {
+    border:solid 1.5px var(--pink);  
+    border-radius: 10px;
+    max-width: 100%;    
+}
+

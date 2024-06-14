@@ -1,0 +1,48 @@
+.history {
+    height: 22.5rem;
+    overflow-y: auto;
+    padding: 1rem;
+   
+}
+
+.history-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;   
+}
+
+hr{
+    margin-bottom: .75rem;
+}
+
+.history-entries{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-bottom: 1rem;
+}
+
+.history-entries .check {
+    span{
+        height: 2rem;
+        width: 2rem;
+        background-color: var(--green-faded);
+        
+        border-radius: 50%;    
+        display:flex;  
+        align-items:center;
+        justify-content: center;
+       
+    }
+
+   
+ 
+}
+
+.history-entries .check span img {
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(48%) sepia(37%) saturate(545%) hue-rotate(78deg) brightness(91%) contrast(100%);
+}
+
+

@@ -1,0 +1,28 @@
+.history {
+    border: 1px solid var(--gray-400);
+    grid-row: 2 / 3; 
+}
+
+.right-side {
+    display: grid;
+    grid-template-rows: 3fr 1fr; 
+    gap: 10px; 
+}
+
+.left-side {
+    display: grid;
+    grid-template-rows: 1fr 4fr; 
+    gap: 10px; 
+}
+
+
+.card {
+    border: 1px solid var(--gray-400);
+    grid-row: 1 / 2; 
+}
+
+.progress {
+    background-color: lightgoldenrodyellow; 
+    grid-row: 2 / 3; 
+}
+
