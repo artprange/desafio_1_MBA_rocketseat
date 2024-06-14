@@ -8,7 +8,41 @@
 
 span{
     background-color: var(--gray-300);
-    border-radius: 999px;
+    border-radius: 999px; 
     padding: 0.75rem;
 }
 
+.stamps-wrapper{
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 1rem;
+     padding: 2rem;
+   
+
+    
+}
+
+ .stamps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius:20px;
+    background-color: var(--gray-300);
+    img{
+        height: 4rem;
+        width: 4rem;
+    }
+}
+
+ .stamps:last-child{
+    img{
+        height: 2.5rem;
+        width: 2.5rem;
+        opacity: .35;
+    }
+    
+
+}
