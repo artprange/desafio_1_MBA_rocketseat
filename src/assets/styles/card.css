@@ -1,5 +1,5 @@
 .card{  
-    height:20.8125rem;
+    height:20.8125;
 }
 
 .header-wrapper {
@@ -24,7 +24,7 @@ span{
     justify-content: space-between;
     align-items: center;
      gap: 1rem;
-     padding: 0 2rem 0 2rem;  
+     padding: 0 2rem 2rem 2rem;  
     
 }
 
